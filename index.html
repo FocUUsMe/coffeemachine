@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <script src="./src/index.js" defer></script>
+        <title>Coffee machine</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="cash_machine">
+                <div class="cash_head">
+                    <span id="cash_span">00</span>
+                </div>
+                <div class="cash_main">
+                    <div class="btn-case">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                        <div>4</div>
+                        <div>5</div>
+                        <div>6</div>
+                        <div>7</div>
+                        <div>8</div>
+                        <div>9</div>
+                        <div>0</div>
+                        <div>+</div>
+                        <div>-</div>
+
+                        <div class="done_btn"></div>
+                        <div class="cancel_btn"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="machine">
+                <div class="machine_head">
+                    <div id="work_ind"></div>
+                    <div id="stop_ind"></div>
+                </div>
+                <div class="machine_main">
+                    <div class="holder"></div>
+                    <div class="holder_part"></div>
+                    <div class="cup">
+                        <div class="cup_handle"></div>
+                    </div>
+                    <div class="coffee_liquid"></div>
+                </div>
+                <div class="machine_foot"></div>
+            </div>
+
+            <div class="coffee-case">
+                <div data-cost="2" class="coffee">Капучино 2$</div>
+                <div data-cost="8" class="coffee">Эспрессо 8$</div>
+                <div data-cost="10" class="coffee">Флэт уайт 10$</div>
+            </div>
+
+            <div class="money">
+                <div class="wallet-cash"  data-cost="3"  id="money_three">3$</div>
+                <div class="wallet-cash"  data-cost="5"  id="money_five">5$</div>
+                <div class="wallet-cash"  data-cost="7"  id="money_seven">7$</div>
+            </div>
+
+            <div class="audio-case">
+                <audio class="buy_audio" src="./audio/buy.mp3"></audio>
+                <audio class="coffee_audio" src="./audio/coffee.mp3"></audio>
+                <audio class="done_audio" src="./audio/done_effect.wav"></audio>
+            </div>
+        </div>
+
+
+    </body>
+    </html>
