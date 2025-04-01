@@ -75,7 +75,6 @@ function machineWork(){
     state.lamp = true;
 
     coffeeLiquid.style.display = 'block';
-    coffeeLiquid.style.top = '400px';
 
     setTimeout(function(){
         coffeeAudio.play();
