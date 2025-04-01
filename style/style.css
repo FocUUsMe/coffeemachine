@@ -91,6 +91,7 @@
         border-radius: 0px 0px 15px 15px;
         z-index: 200;
         animation: cupAppear 2.5s ease;
+        display: flex;
     }
 
     .cup_handle{
@@ -109,7 +110,7 @@
         height: 160px;
         background-color: #66340b;
         position: absolute;
-        top: 460px;
+        top: 400px;
         animation: coffeeAnim 1.5s forwards;
         transition: all 2s ease;
         display: none;
